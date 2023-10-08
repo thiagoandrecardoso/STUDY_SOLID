@@ -1,0 +1,1 @@
+# STUDY_SOLID
