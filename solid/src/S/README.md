@@ -63,9 +63,5 @@ Precisamos deixar essa decisão de design mais clara. O desenvolvedor deve saber
 uma regra de calculo deve ser associada a ele. Precisamos `encapsular` melhor todo esse problema, para que a mudança, quando 
 feita em um único ponto, seja propagada naturalmente. 
 
-**CHEGA DE CONVERSA E VAMOS VER O CÓDIGO DIGNO DO SELO:**
-
-![img.png](image/imbativel.png)
-
 ![img.png](image/gooddiagram.png)
 
