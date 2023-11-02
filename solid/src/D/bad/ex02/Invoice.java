@@ -1,0 +1,15 @@
+package D.bad.ex02;
+
+public class Invoice {
+
+    private double value;
+    private double taxOn;
+    public Invoice(double value, double taxOn) {
+        this.taxOn = taxOn;
+        this.value = value;
+    }
+
+    public void setTaxOn(double taxOn) {
+        this.taxOn = taxOn;
+    }
+}
