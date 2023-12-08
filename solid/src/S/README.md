@@ -2,7 +2,7 @@
 
 “Uma classe deve ter apenas um motivo para mudar, deve ter apenas uma única responsabilidade.”
 
-**God Class** : Na programação orientada a objetos, é uma classe que sabe demais ou faz demais.
+**God Class**: Na programação orientada a objetos, é uma classe que sabe demais ou faz demais.
 
 ## CLASSES COESAS:
 Uma classe coesa é aquela que possui uma única responsabilidade.
@@ -10,7 +10,7 @@ Uma classe coesa é aquela que possui uma única responsabilidade.
 ### Vamos ver um exemplo de uma classe não coesa:
 
 Suponha uma classe SalaryCalc. Ela, como o prórprio nome já diz, é responsável por calcular salários do funcionário.
-A regra: De acordo com o cargo e o salário dele, o desconto aplicado é diferente. 
+A regra: Conforme o cargo e o salário dele, o desconto aplicado é diferente. 
 
 ![img.png](image/img.png)
 
@@ -39,13 +39,13 @@ Vamos primeiro entender por que a classe não é coesa:
 - Toda classe que não é coesa não para de crescer nunca.
 - Motivos para que a classe em questão não pare de crescer:
   - Sempre que um cargo novo surgir (`primeiro problema`);
-  - Sempre que uma nova regra de calculo surgir(`segundo problema`).
+  - Sempre que uma nova regra de cálculo surgir(`segundo problema`).
 
 ##### Resolvendo o segundo problema:
 
 Observe cada método privado: tenOrTwentyPercent e fifteenOrTwentyPercent. Apesar de terem implementações diferentes, 
 elas posuem o mesmo "esqueleto"(forma, abstração). A ideia é colocar cada uma dessas regras em classes diferentes, todas
-implementando a mesma interface.
+implementando a mesma ‘interface’.
 
 ![img.png](image/baddiagram.png)
 
